@@ -5,7 +5,7 @@ import './App.css';
 import mintContractABI from './contracts/mintContractABI.json';
 
 const web3Socket = new Web3(
-  new Web3.providers.WebsocketProvider('wss://rinkeby.infura.io/ws/v3/c6ac371ea2dc4ed0b28db1a86143050b')
+  new Web3.providers.WebsocketProvider(`wss://rinkeby.infura.io/ws/v3/${process.env.REACT_APP_INFURA_PROJECT_ID}`)
 );
 
 const mintContract = new web3Socket.eth.Contract(mintContractABI, '0x2Aa0724852CdCbe74B7737075885d538896a1FaF');

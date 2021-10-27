@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Web3 socket implementation to listen for events in Ethereum smart contracts
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
